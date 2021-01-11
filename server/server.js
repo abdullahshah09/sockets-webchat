@@ -9,7 +9,7 @@ require("dotenv").config();
 
 app.use(
     cors({
-    origin: ["https://purple-tech.netlify.app"],
+    origin: ["https://webchat-socketio.netlify.app/"],
     method: ["GET", "POST", "DELETE"],
     credentials: true
  })
